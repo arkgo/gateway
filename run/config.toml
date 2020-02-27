@@ -1,3 +1,20 @@
+name    = "ark"
+mode    = "dev"
 
 
+[node]
+id      = 1
+type    = "gateway"
+
+[serial]
+text    = "asdfasfasdfadsf"
+digit   = "asfasdff"
+
+
+
+[logger]
+driver  = "default"
+
+[bus]
+driver  = "default"
 
