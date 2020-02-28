@@ -1,20 +1,12 @@
 name    = "ark"
 mode    = "dev"
 
-
 [node]
 id      = 1
 type    = "gateway"
 
-[serial]
-text    = "asdfasfasdfadsf"
-digit   = "asfasdff"
+[basic]
+state   = "asset/states"
 
-
-
-[logger]
-driver  = "default"
-
-[bus]
-driver  = "default"
-
+[setting]
+msg     = "hello setting msg"

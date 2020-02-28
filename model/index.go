@@ -10,5 +10,4 @@ func init() {
 		"name": "asdf",
 	})
 
-	ark.Publish("asdf", nil)
 }
