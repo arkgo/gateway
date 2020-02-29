@@ -6,9 +6,5 @@ import (
 )
 
 func main() {
-	ark.Ready()
-
-	ark.Debug("什么鬼")
-
 	ark.Go()
 }
