@@ -8,5 +8,6 @@ type    = "gateway"
 [basic]
 state   = "asset/states"
 
+
 [setting]
 msg     = "hello setting msg"

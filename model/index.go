@@ -9,5 +9,4 @@ func init() {
 	ark.Register("test", Map{
 		"name": "asdf",
 	})
-
 }
