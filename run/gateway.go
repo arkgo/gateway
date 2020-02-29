@@ -2,10 +2,9 @@ package main
 
 import (
 	"github.com/arkgo/ark"
-	_ "github.com/arkgo/driver/logger"
-	_ "github.com/arkgo/gateway/model"
+	_ "github.com/arkgo/driver"
 )
 
 func main() {
-	ark.Run()
+	ark.Go()
 }
