@@ -5,8 +5,14 @@ mode    = "dev"
 id      = 1
 type    = "gateway"
 
-[basic]
-state   = "asset/states"
+[http]
+port    = 81
+domain  = "dev.com"
+
+[site.www]
+name    = "主站"
+
+
 
 
 [setting]
