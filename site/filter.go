@@ -8,9 +8,10 @@ import (
 )
 
 func init() {
-	ark.Filter("www.logger", Map{
-		"name": "请求日志拦截器", "text": "请求日志拦截器",
-		"request": func(ctx *ark.Http) {
+
+	ark.Sites.RequestFilter("logger", Map{
+		"name": "asdf", "text": "asdfasf",
+		"action": func(ctx *ark.Http) {
 			begin := time.Now()
 
 			ctx.Next()
